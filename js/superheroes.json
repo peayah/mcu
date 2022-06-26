@@ -1,21 +1,21 @@
 
-"Heroes" : [ {
-    "captain america": {
+    {
+    "captain america": 
+    {
         "city": "Washington DC",
         "moviesAppear" : ["Captain America: The First Avenger", "Captain America: The Winter Soldier", "Captain America: Civil War"],
-        'moviesMention' : []
+        "moviesMention" : []
     },
     "ironman": {
         "city": "New York",
-        "moviesAppear" : ["Ironman", "Ironman 2", 'Ironman 3'],
-        'moviesMention' : []
+        "moviesAppear" : ["Ironman", "Ironman 2", "Ironman 3"],
+        "moviesMention" : []
 
     },
-     "Scooby Doo": {
+    "scooby doo": {
         "city": "Scooby Doo",
         "moviesAppear" : ["Scooby Doo"],
-        'moviesMention' : ["Scooby Doo"]
+        "moviesMention" : ["Scooby Doo"]
 
     }
-}
-]
+
