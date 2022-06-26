@@ -1,5 +1,6 @@
 
-    {
+   [ 
+       {
     "captain america": 
     {
         "city": "Washington DC",
@@ -18,4 +19,5 @@
         "moviesMention" : ["Scooby Doo"]
 
     }
+]
 
