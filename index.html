@@ -12,13 +12,33 @@
     <p>Please use the following link to use the API</p>
     <code>https://mcu-api-simple.herokuapp.com/api/</code>
 
-
+    <h3>Example Return Code</h3>
+    <code>
+    {
+    "city": "New York",<br/>
+    "moviesAppear": [<br />
+        "Ironman",<br />
+        "Ironman 2",<br />
+        "Ironman 3"<br />
+    ],<br />
+    "moviesMention": [
+    ]<br />
+    }
+    
+        </code>
 
     <h2>Try it out here</h2>
     <input id = "hero-name" type="text">
     <button id = "getInfo">Get Info</button>
-    <h2>Result</h2>
-    <p>City: <span id="city-name"></span></p>
+    <h4>Result    </h2>
+    <p><b>City:</b></p>
+    <p id="city-name"></p>
+    <p><b>Movies with Appearance:</b></p>
+    <ul id = "movie-appearance"></ul>
+    <p><b>Movies with Mention:</b></p>
+    <ul id="movie-mention"></ul>
+
+
     <script src = "js/main.js"></script>
 </body>
 </html>
