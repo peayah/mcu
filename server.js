@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const PORT = 8000
 
+app.use(cors())
+
 const heroes = {
     "captain america": {
         "city": "Washington DC",
