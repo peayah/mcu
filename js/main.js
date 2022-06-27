@@ -12,7 +12,7 @@ function getFetch() {
 
         document.getElementById("city-name").innerText = data.city
         
-        l   et appearanceUl = document.getElementById("movie-appearance")
+        let appearanceUl = document.getElementById("movie-appearance")
         for (var i = 0; i < data.moviesAppear.length; i++) {
             var appearance = data.moviesAppear[i];
             var li = document.createElement('li');
